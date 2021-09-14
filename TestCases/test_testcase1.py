@@ -40,6 +40,7 @@ class TestYatraSite(BaseClass):
         flightsListVar.stopsNumber_func().click()
         allstops1 = flightsListVar.stopNumber1_func()
         print(len(allstops1))
+        print("hello")
         for i in allstops1:
             print("stop is:" +i.text)
             assert i.text == "1 Stop"
