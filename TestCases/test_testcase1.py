@@ -42,6 +42,7 @@ class TestYatraSite(BaseClass):
         print(len(allstops1))
         print("hello")
         print("develop hello")
+        print("develop hello by x")
         for i in allstops1:
             print("stop is:" +i.text)
             assert i.text == "1 Stop"
